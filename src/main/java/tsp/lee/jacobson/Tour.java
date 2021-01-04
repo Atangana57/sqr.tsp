@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Tour{
+	/*
+	 * stocke une tournee candidate
+	 */
 
     // Holds our tour of cities
     private ArrayList<City> tour = new ArrayList<City>();

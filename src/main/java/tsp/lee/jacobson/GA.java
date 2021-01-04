@@ -1,6 +1,9 @@
 package tsp.lee.jacobson;
 
 public class GA {
+	/*
+	 * Gere le fonctionnement de l'algo genetique et fera evoluer les populations de solutions
+	 */
 
     /* GA parameters */
     private static final double mutationRate = 0.015;
