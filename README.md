@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity |  |  |T           il faut tester car calcul la distance
+| getX |  |  |    I                 pas besoin de tester un getter
+| getY |  |  |     I               pas besoin de tester le getter
+| toString |  |  | I                pas besoin de tester la tranfo en chaine de caractere
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  |  |  |T
+| getCity  |  |  |I                getter 
+| getDistance  |  | I |            getter
+| getFitness  |  |  |I              geter
+| setCity  |  |  |T
+| tourSize  |  |  |T               on teste pour la tounee ville
+| toString  |  |  |I               pas besoin de tester
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
+| getFittest  |  |  |               getter
 | getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| populationSize  |  | T |         il faut tester pour avoir la  taille de la population genereale
+| saveTour  |  |  |T               il faut tester
 
 ## Functions to test now
 
